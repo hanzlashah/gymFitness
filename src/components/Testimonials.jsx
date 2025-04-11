@@ -25,7 +25,7 @@ const Testimonials = () => {
             <img
               src={client.image}
               alt={client.name}
-              className="w-24 h-24 mx-auto rounded-full  object-center md:object-cover mb-4"
+              className="w-32 h-32 md:w-24 md:h-24 mx-auto rounded-full  object-center md:object-cover mb-4"
             />
             <p className="text-gray-700 italic mb-2">"{client.feedback}"</p>
             <h4 className="text-md font-semibold">{client.name}</h4>
