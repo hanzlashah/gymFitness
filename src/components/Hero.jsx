@@ -7,7 +7,7 @@ const Hero = () => {
       className="bg-gray-900 text-white text-center py-20 px-4"
       id="hero"
     >
-      <h1 className="text-3xl md:text-6xl font-bold mb-4">{heroData.title}</h1>
+      <h1 className="text-2xl md:text-6xl font-bold mb-4">{heroData.title}</h1>
       <p className="text-lg md:text-xl mb-6">{heroData.subtitle}</p>
       <a
         href="https://www.linkedin.com/in/hanzla-mahmood-94a014335/"
