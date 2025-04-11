@@ -38,7 +38,7 @@ const Trainers = () => {
             <img
               src={trainer.image}
               alt={trainer.name}
-              className="w-52 h-52 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full object-cover mb-4 shadow-lg"
+              className="w-52 h-52 md:w-40 md:h-40 lg:w-48 lg:h-48   rounded-full object-contain md:object-cover mb-4 shadow-lg"
             />
             <h3 className="text-xl font-semibold">{trainer.name}</h3>
             <p className="text-gray-600">{trainer.specialty}</p>
